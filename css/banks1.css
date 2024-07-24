@@ -1,0 +1,62 @@
+
+.main-body {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #F5E5E5;
+    max-width: 100%;
+    padding: 50px 50px;
+}
+
+.header {
+    background-color: #F5E5E5;
+    max-width: 100%;
+    padding: 50px 50px;
+}
+.header-text {
+    margin: 20 40px;
+
+}
+.import {
+    font-size: 1.9rem;
+    color: #F03F4D;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+h1 {
+    
+    font-weight: 500;
+    font-size: 1.9rem;
+    
+}
+
+.container{
+    min-width: 100%;
+}
+
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+}
+.sign-in{
+    width: 450px;
+}
+.btn-danger:hover {
+    border-color: red !important; /* Adds a red border on hover */
+    border-width: 2px; /* Adjust the border width if necessary */
+}
+.text-danger {
+    color: red;
+    margin-top: 5px;
+}
+footer {
+    background-color: #020214; /* Deep blue color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+

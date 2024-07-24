@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Html link with CSS -->
+    <link href="/css/banks1.css" type="text/css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="/bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="main-body">
+    <div class="header">
+        <header>
+            <div class="header-text">
+            <h1 class="import">Important notice:</h1>
+            <p>Please be mindful of fake sites run by fraudlent parties posing as BankPeez Ltd or its affiliates.
+            Do not disclose your personal information to anyone online or <br> anywhere else</p>
+            </div>
+        </header>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 bg-danger row-1">
+            <nav class="navbar navbar-dark navbar-expand-lg bg-danger">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">BankPeez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Locate
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Media</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Help Centre
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Security</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            </div>
+            <div class="col-lg-6" style="border: 2px solid #F03241;">
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Personal Banking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Business Banking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Open Account</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+    </div>
+    <dv class="container-fluid">
+        <div class="row" style="background-color: #F3F2F2;" >
+            <div class="col-6 mt-5 mb-5 " style="padding-left: 150px;">
+            <h1>Online Banking</h1>
+            <span class="sub-text" style="color: #F04040;"><h4>Banking at your convenience</h4></span>
+            <p style="font-size: 1rem;">A secure way to access your accounts, manage payments,<br>
+            check your statements and much more, <br>24hours a day.<br><br><br><br></p>
+            <span class="sub-text" style="color: #F04040;"><h4>Thank you for Choosing us.........</h4></span> 
+            </div>
+        <div class="col-6 mt-5 mb-5">
+            <div class="sign-in">
+                <form id="myForm">
+                    <div class="mt-5">
+                        <label for="userId" class="form-label">User Id</label>
+                        <input type="text" class="form-control form-control-lg" id="userId" placeholder="Enter a valid User Id" required>
+                        <div id="userIdError" class="text-danger" style="display: none;">User ID cannot be empty</div>
+                    </div>
+                    <div class="mt-4">
+                        <label for="accountNumber" class="form-label">Account number</label>
+                        <input type="text" class="form-control form-control-lg" id="accountNumber" placeholder="Please enter your 10 digit account number" required>
+                        <div id="accountNumberError" class="text-danger" style="display: none;">Account number must be 10 digits</div>
+                    </div>
+                    <button type="button" class="btn btn-danger btn-lg btn-outline-light mt-5 w-100" onclick="validateForm()">Submit Account</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    </dv>
+</div>
+<!-- Footer -->
+<footer class="text-center mt-5">
+    <div class="footer-text">
+        <P>Designed by Taiwo Oluwatobiloba</P>
+    </div>
+    
+</footer>
+    <!-- JavaScript CSS -->
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="/js/banks1.js"></script>
+</body>
+</html>

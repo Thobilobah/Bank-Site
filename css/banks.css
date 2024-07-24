@@ -1,0 +1,53 @@
+
+header {
+    background-color: #F5E5E5;
+    max-width: 100%;
+    padding: 10px 5px 5px 10px;
+}
+.header-text {
+    margin: 0 20px;
+
+}
+.import {
+    font-size: 1.7rem;
+    color: #F03F4D;
+    font-family: sans-serif;
+}
+h1 {
+    font-family: 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.container{
+    min-width: 100%;
+}
+
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+}
+.lower-case {
+    color: red;
+    font-family: sans-serif;
+    /* font-weight: 400; */
+}
+.status {
+    text-align: center;
+}
+footer {
+    background-color: #020214; /* Deep blue color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
